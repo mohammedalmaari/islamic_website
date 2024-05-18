@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all linear .24s;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Tajawal', sans-serif;
+    border: none;
+}
+body{
+    background-color: #1c805f;
+    direction: rtl;
+    background-image: url(../image/section\ tow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* start login */
+.box{
+    text-align: center;
+    border: 2px solid #1c805f;
+    border-radius: 20px;
+    width: 300px;
+    padding: 50px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box h3{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: #1c805f;
+}
+.box input[type="text"], .box input[type="password"] {
+    text-align: center;
+    background: none;
+    border: 1px solid #1c805f;
+    border-radius: 30px;
+    margin: 5px 0;
+    color: #1c805f;
+    padding: 3px 0;
+}
+.box input[type="text"], .box input[type="password"]:active{
+    border: 1px solid #1c805f;
+}
+.box input[type="submit"]{
+    background-color: #1c805f;
+    border-radius: 30px;
+    padding: 5px 20px;
+    width: 80px;
+    cursor: pointer;
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #eee;
+}
+.box a{
+    border: 2px solid #1c805f;
+    border-radius: 20px;
+}
+a{
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    background-color: #1c805f;
+    border-radius: 30px;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    color: #eee;
+}
+a:hover{
+    
+}
+/* end login */
